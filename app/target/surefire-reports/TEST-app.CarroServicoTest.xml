@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="app.CarroServicoTest" time="0.583" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/opt/desenv/git-pessoal/app"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/opt/desenv/git-pessoal/app"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/desenv/ferramentas/apache-maven-3.5.0/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/desenv/ferramentas/apache-maven-3.5.0/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.13.0-38-generic"/>
+    <property name="library.jansi.path" value="/opt/desenv/ferramentas/apache-maven-3.5.0/lib/jansi-native/linux64"/>
+    <property name="user.home" value="/home/paulo"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="paulo"/>
+    <property name="java.class.path" value="/opt/desenv/ferramentas/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/desenv/ferramentas/apache-maven-3.5.0"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="app.CarroServicoTest" name="deveRetornarCarro" time="0.583">
+    <error message="Conexão recusada (Connection refused)" type="java.net.ConnectException">java.net.ConnectException: Conexão recusada (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at app.CarroServicoTest.deveRetornarCarro(CarroServicoTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.jboss.arquillian.junit.Arquillian$8$1.invokeMethod(Arquillian.java:325)
+	at org.jboss.arquillian.junit.MethodInvoker$1.invoke(MethodInvoker.java:18)
+	at org.jboss.arquillian.container.test.impl.execution.LocalTestExecuter.execute(LocalTestExecuter.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.test.impl.execution.ContainerTestExecuter.execute(ContainerTestExecuter.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createTestContext(TestContextHandler.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.test(EventTestRunnerAdaptor.java:139)
+	at org.jboss.arquillian.junit.MethodInvoker.invoke(MethodInvoker.java:15)
+	at org.jboss.arquillian.junit.Arquillian$8.evaluate(Arquillian.java:332)
+	at org.jboss.arquillian.junit.Arquillian$4.evaluate(Arquillian.java:204)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:350)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$5.evaluate(Arquillian.java:215)
+	at org.jboss.arquillian.junit.Arquillian$7$1.invoke(Arquillian.java:279)
+	at org.jboss.arquillian.container.test.impl.execution.BeforeLifecycleEventExecuter.on(BeforeLifecycleEventExecuter.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createTestContext(TestContextHandler.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.fireCustomLifecycle(EventTestRunnerAdaptor.java:159)
+	at org.jboss.arquillian.junit.Arquillian$7.evaluate(Arquillian.java:273)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:166)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:350)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:177)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.jboss.arquillian.junit.container.JUnitTestRunner.execute(JUnitTestRunner.java:61)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.executeTest(ServletTestRunner.java:139)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.execute(ServletTestRunner.java:117)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.doGet(ServletTestRunner.java:86)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:86)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:72)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:282)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:261)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:80)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:172)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:774)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</error>
+    <system-out>Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+&amp;#27;[0m17:51:49,572 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+&amp;#27;[0m&amp;#27;[0m17:51:49,780 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+&amp;#27;[0m&amp;#27;[0m17:51:49,849 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+&amp;#27;[0m&amp;#27;[0m17:51:51,004 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute &apos;enabled&apos; in the resource at address &apos;/subsystem=datasources/data-source=sgbsDS&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,005 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute &apos;job-repository-type&apos; in the resource at address &apos;/subsystem=batch&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,006 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute &apos;enabled&apos; in the resource at address &apos;/subsystem=datasources/data-source=sigtvDS&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,008 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute &apos;enabled&apos; in the resource at address &apos;/subsystem=datasources/data-source=sisrdDS&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,009 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute &apos;enabled&apos; in the resource at address &apos;/subsystem=datasources/data-source=sisrdrelatoriosDS&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,010 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute &apos;enabled&apos; in the resource at address &apos;/subsystem=datasources/data-source=corporativoDS&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,061 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute &apos;enabled&apos; in the resource at address &apos;/subsystem=datasources/data-source=ExampleDS&apos; is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+&amp;#27;[0m&amp;#27;[0m17:51:51,093 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+&amp;#27;[0m&amp;#27;[0m17:51:51,130 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.1.Final
+&amp;#27;[0m&amp;#27;[0m17:51:51,142 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.1.Final
+&amp;#27;[0m&amp;#27;[0m17:51:51,198 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.9.Final
+&amp;#27;[0m&amp;#27;[0m17:51:51,278 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+&amp;#27;[0m&amp;#27;[0m17:51:51,281 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker &apos;default&apos; has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+&amp;#27;[0m&amp;#27;[0m17:51:51,286 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+&amp;#27;[0m&amp;#27;[0m17:51:51,281 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+&amp;#27;[0m&amp;#27;[0m17:51:51,306 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+&amp;#27;[0m&amp;#27;[0m17:51:51,335 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+&amp;#27;[0m&amp;#27;[0m17:51:51,360 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+&amp;#27;[0m&amp;#27;[0m17:51:51,365 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+&amp;#27;[0m&amp;#27;[0m17:51:51,388 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+&amp;#27;[0m&amp;#27;[33m17:51:51,442 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+&amp;#27;[0m&amp;#27;[0m17:51:51,503 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+&amp;#27;[0m&amp;#27;[0m17:51:51,619 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+&amp;#27;[0m&amp;#27;[0m17:51:51,629 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+&amp;#27;[0m&amp;#27;[0m17:51:51,664 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+&amp;#27;[0m&amp;#27;[0m17:51:51,665 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+&amp;#27;[0m&amp;#27;[0m17:51:51,946 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path /opt/desenv/servidores/wildfly-9.0.2.Final/welcome-content
+&amp;#27;[0m&amp;#27;[0m17:51:51,957 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+&amp;#27;[0m&amp;#27;[0m17:51:52,010 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class com.microsoft.sqlserver.jdbc.SQLServerDriver (version 6.0)
+&amp;#27;[0m&amp;#27;[0m17:51:52,005 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+&amp;#27;[0m&amp;#27;[0m17:51:52,019 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = sqlserver
+&amp;#27;[0m&amp;#27;[0m17:51:52,101 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8081
+&amp;#27;[0m&amp;#27;[0m17:51:52,321 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/sgbsDS]
+&amp;#27;[0m&amp;#27;[0m17:51:52,321 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/sigtvDS]
+&amp;#27;[0m&amp;#27;[0m17:51:52,321 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/corporativoDS]
+&amp;#27;[0m&amp;#27;[0m17:51:52,320 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/sisrdrelatoriosDS]
+&amp;#27;[0m&amp;#27;[0m17:51:52,324 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/sisrdDS]
+&amp;#27;[0m&amp;#27;[0m17:51:52,459 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /opt/desenv/servidores/wildfly-9.0.2.Final/standalone/deployments
+&amp;#27;[0m&amp;#27;[0m17:51:52,737 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener httpsServer listening on /127.0.0.1:8443
+&amp;#27;[0m&amp;#27;[0m17:51:52,816 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+&amp;#27;[0m&amp;#27;[0m17:51:53,101 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+&amp;#27;[0m&amp;#27;[0m17:51:53,102 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+&amp;#27;[0m&amp;#27;[0m17:51:53,102 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 3993ms - Started 229 of 407 services (213 services are lazy, passive or on-demand)
+&amp;#27;[0mapp.war:
+/WEB-INF/
+/WEB-INF/classes/
+/WEB-INF/classes/br/
+/WEB-INF/classes/br/teste/
+/WEB-INF/classes/br/teste/app/
+/WEB-INF/classes/br/teste/app/model/
+/WEB-INF/classes/br/teste/app/model/Carro.class
+/WEB-INF/classes/br/teste/app/servico/
+/WEB-INF/classes/br/teste/app/servico/AplicationContext.class
+/WEB-INF/classes/br/teste/app/servico/CarroServico.class
+/WEB-INF/lib/
+/WEB-INF/lib/junit-4.12.jar
+/WEB-INF/lib/hamcrest-core-1.3.jar
+/WEB-INF/lib/gson-2.8.0.jar
+/WEB-INF/lib/arquillian-junit-container-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-junit-core-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-test-api-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-test-spi-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-core-spi-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-container-test-api-1.4.0.Final.jar
+/WEB-INF/lib/shrinkwrap-api-1.2.6.jar
+/WEB-INF/lib/shrinkwrap-descriptors-api-base-2.0.0.jar
+/WEB-INF/lib/arquillian-container-test-spi-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-core-impl-base-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-test-impl-base-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-container-impl-base-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-config-api-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-config-impl-base-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-config-spi-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-container-test-impl-base-1.4.0.Final.jar
+/WEB-INF/lib/shrinkwrap-impl-base-1.2.6.jar
+/WEB-INF/lib/shrinkwrap-spi-1.2.6.jar
+/WEB-INF/lib/shrinkwrap-resolver-impl-maven-3.1.3.jar
+/WEB-INF/lib/shrinkwrap-resolver-api-maven-2.2.6.jar
+/WEB-INF/lib/shrinkwrap-resolver-api-2.2.6.jar
+/WEB-INF/lib/shrinkwrap-resolver-spi-maven-3.1.3.jar
+/WEB-INF/lib/shrinkwrap-resolver-spi-3.1.3.jar
+/WEB-INF/lib/maven-resolver-provider-3.5.2.jar
+/WEB-INF/lib/commons-lang3-3.5.jar
+/WEB-INF/lib/maven-model-3.5.2.jar
+/WEB-INF/lib/maven-model-builder-3.5.2.jar
+/WEB-INF/lib/plexus-component-annotations-1.7.1.jar
+/WEB-INF/lib/maven-artifact-3.5.2.jar
+/WEB-INF/lib/maven-builder-support-3.5.2.jar
+/WEB-INF/lib/maven-repository-metadata-3.5.2.jar
+/WEB-INF/lib/maven-settings-3.5.2.jar
+/WEB-INF/lib/maven-settings-builder-3.5.2.jar
+/WEB-INF/lib/maven-resolver-api-1.1.0.jar
+/WEB-INF/lib/maven-resolver-impl-1.1.0.jar
+/WEB-INF/lib/maven-resolver-spi-1.1.0.jar
+/WEB-INF/lib/maven-resolver-util-1.1.0.jar
+/WEB-INF/lib/maven-resolver-connector-basic-1.1.0.jar
+/WEB-INF/lib/maven-resolver-transport-wagon-1.1.0.jar
+/WEB-INF/lib/plexus-interpolation-1.24.jar
+/WEB-INF/lib/plexus-utils-3.1.0.jar
+/WEB-INF/lib/plexus-sec-dispatcher-1.4.jar
+/WEB-INF/lib/plexus-cipher-1.4.jar
+/WEB-INF/lib/wagon-provider-api-2.12.jar
+/WEB-INF/lib/wagon-file-2.12.jar
+/WEB-INF/lib/wagon-http-lightweight-2.12.jar
+/WEB-INF/lib/wagon-http-shared-2.12.jar
+/WEB-INF/lib/jsoup-1.7.2.jar
+/WEB-INF/lib/commons-io-2.5.jar
+/WEB-INF/lib/wildfly-arquillian-container-managed-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-arquillian-common-8.1.0.Final.jar
+/WEB-INF/lib/arquillian-testenricher-cdi-1.1.2.Final-wildfly-1.jar
+/WEB-INF/lib/arquillian-testenricher-ejb-1.1.2.Final-wildfly-1.jar
+/WEB-INF/lib/arquillian-testenricher-initialcontext-1.1.2.Final-wildfly-1.jar
+/WEB-INF/lib/arquillian-testenricher-osgi-2.1.0.CR2.jar
+/WEB-INF/lib/arquillian-testenricher-resource-1.1.2.Final-wildfly-1.jar
+/WEB-INF/lib/wildfly-arquillian-testenricher-msc-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-server-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-controller-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-core-security-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-core-security-api-8.1.0.Final.jar
+/WEB-INF/lib/staxmapper-1.1.0.Final.jar
+/WEB-INF/lib/wildfly-domain-http-interface-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-domain-management-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-deployment-repository-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-patching-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-cli-8.1.0.Final.jar
+/WEB-INF/lib/aesh-0.33.11.jar
+/WEB-INF/lib/jansi-1.9.jar
+/WEB-INF/lib/jconsole.jar
+/WEB-INF/lib/wildfly-platform-mbean-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-process-controller-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-remoting-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-io-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-network-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-version-8.1.0.Final.jar
+/WEB-INF/lib/jandex-1.1.0.Final.jar
+/WEB-INF/lib/jboss-invocation-1.2.1.Final.jar
+/WEB-INF/lib/jboss-logmanager-1.5.2.Final.jar
+/WEB-INF/lib/jboss-modules-1.3.3.Final.jar
+/WEB-INF/lib/jboss-stdio-1.0.2.GA.jar
+/WEB-INF/lib/jboss-vfs-3.2.5.Final.jar
+/WEB-INF/lib/undertow-core-1.0.15.Final.jar
+/WEB-INF/lib/jboss-msc-1.2.2.Final.jar
+/WEB-INF/lib/wildfly-controller-client-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-protocol-8.1.0.Final.jar
+/WEB-INF/lib/jboss-dmr-1.2.0.Final.jar
+/WEB-INF/lib/jboss-threads-2.1.1.Final.jar
+/WEB-INF/lib/wildfly-jmx-8.1.0.Final.jar
+/WEB-INF/lib/jboss-common-core-2.2.22.GA.jar
+/WEB-INF/lib/org.osgi.core-5.0.0.jar
+/WEB-INF/lib/wildfly-arquillian-protocol-jmx-8.1.0.Final.jar
+/WEB-INF/lib/wildfly-security-manager-1.0.0.Final.jar
+/WEB-INF/lib/arquillian-protocol-jmx-1.1.2.Final-wildfly-1.jar
+/WEB-INF/lib/jbosgi-metadata-3.0.1.Final.jar
+/WEB-INF/lib/xnio-api-3.2.2.Final.jar
+/WEB-INF/lib/xnio-nio-3.2.2.Final.jar
+/WEB-INF/lib/jboss-logging-3.1.4.GA.jar
+/WEB-INF/lib/jboss-marshalling-1.4.6.Final.jar
+/WEB-INF/lib/jboss-marshalling-river-1.4.6.Final.jar
+/WEB-INF/lib/jboss-remoting-4.0.3.Final.jar
+/WEB-INF/lib/remoting-jmx-2.0.0.Final.jar
+/WEB-INF/lib/jboss-sasl-1.0.4.Final.jar
+/WEB-INF/lib/javax.inject-1.jar
+/WEB-INF/lib/wildfly-build-config-8.1.0.Final.jar
+/WEB-INF/lib/arquillian-protocol-servlet-1.4.0.Final.jar
+/WEB-INF/lib/arquillian-container-spi-1.4.0.Final.jar
+/WEB-INF/lib/shrinkwrap-descriptors-spi-2.0.0.jar
+/WEB-INF/lib/arquillian-core-api-1.4.0.Final.jar
+/WEB-INF/lib/weld-core-2.3.5.Final.jar
+/WEB-INF/lib/cdi-api-1.2.jar
+/WEB-INF/lib/weld-api-2.3.SP2.jar
+/WEB-INF/lib/weld-spi-2.3.SP2.jar
+/WEB-INF/lib/jboss-classfilewriter-1.1.2.Final.jar
+/WEB-INF/lib/jboss-annotations-api_1.2_spec-1.0.0.Final.jar
+/WEB-INF/lib/guava-18.0.jar
+/WEB-INF/lib/jboss-el-api_3.0_spec-1.0.0.Alpha1.jar
+/WEB-INF/lib/jboss-interceptors-api_1.2_spec-1.0.0.Final.jar
+/WEB-INF/lib/slf4j-simple-1.6.4.jar
+/WEB-INF/lib/slf4j-api-1.6.4.jar
+/WEB-INF/web.xml
+&amp;#27;[0m17:51:59,996 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /opt/desenv/servidores/wildfly-9.0.2.Final/standalone/data/content/55/45059834149b15201cd2dd1ee28319e0532d17/content
+&amp;#27;[0m&amp;#27;[0m17:52:00,035 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of &quot;app.war&quot; (runtime-name: &quot;app.war&quot;)
+&amp;#27;[0m&amp;#27;[0m17:52:02,488 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment app.war
+&amp;#27;[0m&amp;#27;[0m17:52:02,580 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+&amp;#27;[0m&amp;#27;[0m17:52:02,841 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: app.war
+&amp;#27;[0m&amp;#27;[0m17:52:02,889 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.2.16 (SP1)
+&amp;#27;[0m&amp;#27;[0m17:52:02,944 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment app.war
+&amp;#27;[0m&amp;#27;[0m17:52:04,334 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 29) Deploying javax.ws.rs.core.Application: class br.teste.app.servico.AplicationContext
+&amp;#27;[0m&amp;#27;[0m17:52:04,389 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0021: Registered web context: /app
+&amp;#27;[0m&amp;#27;[0m17:52:04,597 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed &quot;app.war&quot; (runtime-name : &quot;app.war&quot;)
+&amp;#27;[0m</system-out>
+    <system-err>abr 26, 2018 5:51:48 PM org.jboss.as.arquillian.container.managed.ManagedDeployableContainer startInternal
+INFORMAÇÕES: Starting container with: [/usr/lib/jvm/java-8-oracle/bin/java, -Xmx512m, -XX:MaxPermSize=256m, -ea, -Djboss.home.dir=/opt/desenv/servidores/wildfly-9.0.2.Final, -Dorg.jboss.boot.log.file=/opt/desenv/servidores/wildfly-9.0.2.Final/standalone/log/server.log, -Dlogging.configuration=file:/opt/desenv/servidores/wildfly-9.0.2.Final/standalone/configuration/logging.properties, -Djboss.bundles.dir=/opt/desenv/servidores/wildfly-9.0.2.Final/bundles, -jar, /opt/desenv/servidores/wildfly-9.0.2.Final/jboss-modules.jar, -mp, /opt/desenv/servidores/wildfly-9.0.2.Final/modules, org.jboss.as.standalone, -server-config, standalone.xml]
+abr 26, 2018 5:51:49 PM org.xnio.Xnio &lt;clinit&gt;
+INFO: XNIO version 3.2.2.Final
+abr 26, 2018 5:51:49 PM org.xnio.nio.NioXnio &lt;clinit&gt;
+INFO: XNIO NIO Implementation Version 3.2.2.Final
+abr 26, 2018 5:51:49 PM org.jboss.remoting3.EndpointImpl &lt;clinit&gt;
+INFO: JBoss Remoting version 4.0.3.Final
+</system-err>
+  </testcase>
+</testsuite>
